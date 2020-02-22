@@ -95,16 +95,13 @@ The resulting contact information strings should have a space between the first 
 "Josh josh@example.com"
 
 Log the result of your new array. */
-function contactInfo() {
+const contactInfo = []; 
 
-let names = [];
+  for (let i = 0; i <graduates.length; i++) {
+    contactInfo.push(`${graduates[i].first_name} ${graduates[i].email}`);
+  }
 
-for (let i = 0; i < graduates.length; i++) {
-  names.push(graduates[i].first_name, graduates[i].email)
-}
 
-return `${graduates.first_name} ${graduates.email}`;
-}
 // for (i = 0; i < )
 console.log(contactInfo);
 
