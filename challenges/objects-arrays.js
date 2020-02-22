@@ -5,6 +5,7 @@
   Use this pattern to create your objects: 
   object name, diet, weight, length, period
 */
+var dinosaur {name, diet, weight, length, period};
 
 // tyrannosaurus, carnivorous, 7000kg, 12m, Late Cretaceous
 
