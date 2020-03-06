@@ -53,7 +53,7 @@ console.log(tyrannosaurus.period);
 tyrannosaurus.roar = function() {
   return 'RAWERSRARARWERSARARARRRR!';
 }
-console.log(tyrannosaurus.roar);
+console.log(tyrannosaurus.roar());
 
 
 // ==== Arrays ====
@@ -162,17 +162,19 @@ console.log(lowCaseAnimalNames);
 The zoos are concerned about animals with a lower population count. Using filter, create a new array of objects called lowPopulationAnimals which contains only the animals with a population less than 5.
 
 */
-// let lowPopulationAnimals = 
+let lowPopulationAnimals = zooAnimals.filter((count) => {
+  return count.population < 5;
+})
 
-// console.log(lowPopulationAnimals);
+console.log(lowPopulationAnimals);
 
 /* Request 4: .reduce() 
 
 The zoos need to know their total animal population across the United States. Find the total population from all the zoos using the .reduce() method. Remember the reduce method takes two arguments: a callback (which itself takes two args), and an initial value for the count.
 
 */
-const populationTotal = zooAnimals.reduce((eachAnimal, everyAnimal) => {
-  return eachAnimal + everyAnimal.population;
+const populationTotal = zooAnimals.reduce((total, everyAnimal) => {
+  return total + everyAnimal.population;
   }, 0);
 
 console.log(populationTotal);

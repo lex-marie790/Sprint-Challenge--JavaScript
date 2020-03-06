@@ -29,10 +29,15 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+.map returns a new array
+.forEach doesnt return anything, 
 
 2. What is the difference between a function and a method?
+method is an object
+function is independant of an ojbect.
 
 3. What is closure?
+a function that allowes us to access the parent function even when it is closed.
 
 4. Describe the four rules of the 'this' keyword.
     1. GLobal
@@ -70,7 +75,7 @@ Your finished project must include all of the following requirements:
 
 ## Task 1: Objects and Arrays
 Test your knowledge of objects and arrays. 
-* [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
+* [X] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
 
 ## Task 2: Functions
 This challenge takes a look at callbacks and closures as well as scope. 
