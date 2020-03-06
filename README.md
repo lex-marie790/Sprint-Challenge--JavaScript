@@ -37,7 +37,7 @@ method is an object
 function is independant of an ojbect.
 
 3. What is closure?
-a function that allowes us to access the parent function even when it is closed.
+a function that allowes us to access the parent function even when it is closed.git c
 
 4. Describe the four rules of the 'this' keyword.
     1. GLobal
